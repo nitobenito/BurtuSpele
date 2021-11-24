@@ -95,7 +95,7 @@ function paradit(burti){
 function rezultati(speletajs, punkti){
     let dict={punkti:punkti,vards:speletajs};
     console.log(JSON.stringify(dict));
-    fetch('http://nitobenito.pythonanywhere.com/send', {
+    fetch('https://nitobenito.pythonanywhere.com/send', {
         method: 'POST',
        
         headers: {'Content-Type': 'application/json'},
